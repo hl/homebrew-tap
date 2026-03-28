@@ -3,7 +3,7 @@ cask "brr" do
   name "brr"
   desc "brr — autonomous AI coding loops for Claude Code"
   homepage "https://github.com/hl/brr"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "brr" do
   on_macos do
     on_intel do
       url "https://github.com/hl/brr/releases/download/v#{version}/brr_darwin_amd64.tar.gz"
-      sha256 "23f49d077b9919f39c3722e68aa74afeb01ea22c4fcae1884637cf37c4be126c"
+      sha256 "72b9e359ecc6205cc184ed61681f9c9f164492846780a2f3c5dd4932fd6c2c93"
     end
     on_arm do
       url "https://github.com/hl/brr/releases/download/v#{version}/brr_darwin_arm64.tar.gz"
-      sha256 "7a84ec0212185f7e4f4d3f61aee1110d54c95ccd0bc13d311119ebf371efbae8"
+      sha256 "3147bd988269eda9e16f3c829a7aecac054be8e9e5eaeebb1745e07a076e8752"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hl/brr/releases/download/v#{version}/brr_linux_amd64.tar.gz"
-      sha256 "06df47eeaa5135af7b08d4da26a5afb841d2eb7ca5be74ff8d5aff06e37c9cca"
+      sha256 "5db15c677d1402f60d74863fcb667128b7bfab42c67deb6549f8ec768d7fdf2b"
     end
     on_arm do
       url "https://github.com/hl/brr/releases/download/v#{version}/brr_linux_arm64.tar.gz"
-      sha256 "e3fc0b96da32460ba849fc5d56d5bde9f4810b1811c9aa1720df227eda660ddd"
+      sha256 "b6adf5e7b017c41cded6e8423174c8ac19aa5d883dd0661e98c2f4504fd9f3f9"
     end
   end
 
