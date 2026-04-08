@@ -1,6 +1,6 @@
 cask "seance" do
-  version "0.4.0"
-  sha256 "21241a256aaa61a5ad94ba49387e0bb1e4997451dd4faf9211f0d3c284a8687e"
+  version "0.5.0"
+  sha256 "b034ae688f3d783fc37ef136dff8861fd1bd1aa12f8c8dab801870799e994dc4"
 
   url "https://github.com/hl/seance/releases/download/v#{version}/Seance_#{version}_aarch64.dmg",
       verified: "github.com/hl/seance/"
