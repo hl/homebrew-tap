@@ -13,7 +13,7 @@ cask "seance" do
   app "Séance.app"
 
   postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", staged_path/"Séance.app"]
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Séance.app"]
   end
 
   zap trash: [
