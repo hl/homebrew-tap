@@ -7,22 +7,22 @@ class Vesper < Formula
   on_macos do
     on_arm do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_darwin_arm64.tar.gz"
-      sha256 "b5f1d7e0be832ef8a11ac52ea9fa594b68e3ed868b06612a7017b74d2d4b22c6"
+      sha256 "99c42e4a59739d62ad035536a36ffc0a63f41ae03a344894df55eca87df1b3b7"
     end
     on_intel do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_darwin_x64.tar.gz"
-      sha256 "dd197f3690a1601cf592b6f01776568bdac0043bcc178efe327bd67033ab4abb"
+      sha256 "07567662e7168f9b30e6ea028bd8393c0b5a10a35d42deaaa15b09195d039748"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_linux_arm64.tar.gz"
-      sha256 "19914711d50cd3274dba7bf129e326d672a650c67ab2bd0aa67b24ab9a8cd122"
+      sha256 "33e8ca3db6d44c01542e799ea79bd951e3ede56b25ec8acf59b30b39aebbef80"
     end
     on_intel do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_linux_x64.tar.gz"
-      sha256 "9b9d7f0b301dfcb5fb047731066c93e7857840c4009032f0fe09f9a1bf19d1ae"
+      sha256 "907efd37687d711c35adf4e88a9a7e4afb52b14f21a17218119c4185279df244"
     end
   end
 
