@@ -1,28 +1,28 @@
 class Vesper < Formula
   desc "Permission-gated AI agent runtime"
   homepage "https://github.com/hl/vesper"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_darwin_arm64.tar.gz"
-      sha256 "68a4acd51e80cbe57ea8a916ef88c19ac71678b2bcb9f4c65f5be5b2b76aac0a"
+      sha256 "bfb836793f7862feaa4e08c183494c84fd8b91eec0dafaf5a7f33dbdfbd371c0"
     end
     on_intel do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_darwin_x64.tar.gz"
-      sha256 "6f00f1a507e81da5612d903bfc4081810d5ee2427f863cd2e32dfa965681ea0c"
+      sha256 "6a2ee596ef1b331bc712f7ce18cbc23c78d6c41dd33a0bbcabb49a92c8a95f21"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_linux_arm64.tar.gz"
-      sha256 "df0da9face6d314350b8e6da4b9587dbdbcce77c64906c8a8b421bbf3b9afccd"
+      sha256 "a4d21ef3de2037f81d9866357889e0998163b04ff5cc514ad283fba9f4b35e70"
     end
     on_intel do
       url "https://github.com/hl/vesper/releases/download/v#{version}/vesper_linux_x64.tar.gz"
-      sha256 "172a317b049dbdee0691127a71de6015b0310ab2762ac91ad60cf7bc1f26159a"
+      sha256 "7c996a18ccde58f3a6626575b7ce03d2803a9f7f3ab648cdc382e0c3b2bbc8aa"
     end
   end
 
