@@ -5,20 +5,20 @@
 class Brr < Formula
   desc "brr — autonomous AI coding loops for Claude Code"
   homepage "https://github.com/hl/brr"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hl/brr/releases/download/v0.4.0/brr_darwin_amd64.tar.gz"
-      sha256 "e0ac4a8eb90e882bc52bae459fbf7b11eb7b6a397396b2d80302a537ede72d9c"
+      url "https://github.com/hl/brr/releases/download/v0.5.0/brr_darwin_amd64.tar.gz"
+      sha256 "08592b385de2f30c320e5f1de0f2b887c75ffd06141f396a9962d3bd8c711204"
 
       define_method(:install) do
         bin.install "brr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hl/brr/releases/download/v0.4.0/brr_darwin_arm64.tar.gz"
-      sha256 "28519c80ea3f0832d36b8f9a27d175f93c32e1361c2ba6245d0e7bbaf4cc249e"
+      url "https://github.com/hl/brr/releases/download/v0.5.0/brr_darwin_arm64.tar.gz"
+      sha256 "3d7c04ad7d22927c9b3846db7e0897322baff9cb30e5fb0ebcc55b510caafa1c"
 
       define_method(:install) do
         bin.install "brr"
@@ -28,15 +28,15 @@ class Brr < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hl/brr/releases/download/v0.4.0/brr_linux_amd64.tar.gz"
-      sha256 "2ca2fa99dbe307d6864e47849944500ae445897c96fb92911ca146e41a45e16d"
+      url "https://github.com/hl/brr/releases/download/v0.5.0/brr_linux_amd64.tar.gz"
+      sha256 "f7c67c743db59fe6530fbd55ffe9c743fc0f38c316d2163680a5d741d37e2643"
       define_method(:install) do
         bin.install "brr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hl/brr/releases/download/v0.4.0/brr_linux_arm64.tar.gz"
-      sha256 "54f72a1d9082f161075536bda1ebbd78e3b21549341284362fb0a7b87bced835"
+      url "https://github.com/hl/brr/releases/download/v0.5.0/brr_linux_arm64.tar.gz"
+      sha256 "e6ff0e0e6352a6bef1634ecea1dfd9bb26cc52a070fbaf3a966bd82167837d92"
       define_method(:install) do
         bin.install "brr"
       end
